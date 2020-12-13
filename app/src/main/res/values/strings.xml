@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="login_button_text">Login</string>
+    <string name="register_button_text">Register</string>
+    <string name="username_text">Username:</string>
+    <string name="password_text">Password:</string>
+    <string name="login_title_text">Login</string>
+    <string name="welcome_title_text">Welcome!</string>
+    <string name="welcome_description_text">Thanks for coming to check out our shoes!\nOur next page will go ahead and give you instructions on how the application works so that you can get started shopping!</string>
+    <string name="welcome_button_text">Instructions</string>
+    <string name="instructions_title_text">Instructions</string>
+    <string name="instructions_description_text">These are temporary instructions:\n\n1.  Task One\n2. Task Two\n3. Task Three</string>
+    <string name="instructions_button_text">Shoe Listing</string>
+    <string name="shoelist_title_text">View Or Add a Shoe!</string>
+    <string name="shoelist_action_button_description">navigates to a page that allows you to add a shoe to the list of shoes</string>
+    <string name="addshoe_title_text">Add Shoe!</string>
+    <string name="addshoe_name_hint">Name of shoe</string>
+    <string name="addshoe_company_hint">Name of shoe company</string>
+    <string name="addshoe_size_hint">Size of shoe</string>
+    <string name="addshoe_description_hint">Description of shoe</string>
+    <string name="addshoe_name_label">Name:</string>
+    <string name="addshoe_company_label">Company:</string>
+    <string name="addshoe_size_label">Size:</string>
+    <string name="addshoe_description_label">Description:</string>
+    <string name="addshoe_button_save_text">Add My Shoe!</string>
+    <string name="addshoe_button_cancel_text">Cancel</string>
+    <string name="menu_logout_text">Logout</string>
+</resources>
