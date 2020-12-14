@@ -5,6 +5,17 @@
     tools:context=".ui.addshoe.AddShoeFragment"
 >
 
+    <data>
+        <variable
+            name="viewModel"
+            type="com.udacity.shoestore.ui.MainActivityViewModel"
+        />
+    </data>
+
+    <!--
+        I used a LinearLayout here because everything was located right beneath the other.  I didn't
+        find it complex enough to use a constraint layout.
+    -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +45,7 @@
             android:id="@+id/addshoe_input_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@={viewModel.name}"
             android:layout_marginBottom="16dp"
             android:inputType="text"
             android:hint="@string/addshoe_name_hint"
@@ -51,6 +63,7 @@
             android:id="@+id/addshoe_input_company"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@={viewModel.company}"
             android:layout_marginBottom="16dp"
             android:inputType="text"
             android:hint="@string/addshoe_description_hint"
@@ -69,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
+            android:text="@={viewModel.size}"
             android:inputType="number"
             android:hint="@string/addshoe_size_hint"
         />
@@ -85,6 +99,7 @@
             android:id="@+id/addshoe_input_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@={viewModel.description}"
             android:layout_marginBottom="16dp"
             android:inputType="text"
             android:hint="@string/addshoe_description_hint"
@@ -95,6 +110,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/addshoe_button_save_text"
+            android:onClick="@{() -> viewModel.addShoe()}"
             android:textColor="@android:color/white"
             android:background="@drawable/button_shape_accent"
             android:layout_marginTop="16dp"

@@ -6,6 +6,14 @@
     tools:context=".ui.login.LoginFragment"
     >
 
+    <!--
+        I used a constraint layout inside of here because the layout was slightly more complex
+        than the other layouts where I wished to have a header image centered between the bottom
+        content and the top content.  I'm also used to CSS with CSSGrid and it seemed easy to
+        formulate this layout in terms of a grid.  This also made it simple to orchestrate on
+        the landscape view of the phone as well in which I turn the Login text white because
+        it overlaps with the icon background
+    -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
