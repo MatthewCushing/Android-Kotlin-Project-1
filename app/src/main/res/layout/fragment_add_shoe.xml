@@ -5,6 +5,19 @@
     tools:context=".ui.addshoe.AddShoeFragment"
 >
 
+    <data>
+
+        <variable
+            name="mainActivityViewModel"
+            type="com.udacity.shoestore.ui.MainActivityViewModel"
+        />
+
+    </data>
+
+    <!--
+        I used a LinearLayout here because everything was located right beneath the other.  I didn't
+        find it complex enough to use a constraint layout.
+    -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

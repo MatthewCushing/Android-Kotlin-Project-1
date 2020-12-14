@@ -5,6 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     >
 
+    <!--
+        I used a LinearLayout here because the layout has a single NavHostFragment inside of it so
+        I only needed to give the entire Fragment space to its' children and the LinearLayout was
+        suited to do that
+    -->
     <LinearLayout
         android:id="@+id/container"
         android:layout_width="match_parent"

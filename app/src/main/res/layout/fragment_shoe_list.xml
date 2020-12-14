@@ -7,12 +7,14 @@
     <data>
         <variable
             name="mainActivityViewModel"
-            type="com.udacity.shoestore.ui.MainActivityViewModel" />
-        <variable
-            name="shoeListFragment"
-            type="com.udacity.shoestore.ui.shoelist.ShoeListFragment" />
+            type="com.udacity.shoestore.ui.MainActivityViewModel"
+        />
     </data>
 
+    <!--
+        I used a constraint layout here because it allowed me to put the floating action button
+        in the lower right of the screen on top of the LinearLayout in terms of Z-Axis.
+    -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
